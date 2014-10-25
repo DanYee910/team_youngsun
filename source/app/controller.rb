@@ -52,7 +52,3 @@ p g.determine_win_lose
 
 
 
-# #---playing with hashes
-
-# faces = "A23456789TJQK".split("")
-# p faces.each {|str| str.gsub!("T", "10")}

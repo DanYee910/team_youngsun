@@ -3,6 +3,7 @@
 # @player_hand = []
 # def deal_one_card(player/dealer, shoe) - pulls(shift) one card for the hand from the shoe
 
+
 # shoe is [<cardObj, @face = "K", @value = 10>,...<>]
 
 class Card
