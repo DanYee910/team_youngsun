@@ -21,16 +21,13 @@ class Controller
       if user_input == "h"
         deal_one_card(shoe, hand)
       elsif user_input == "s"
-        puts "safsadf"
+        puts "You stay"
       else
         puts "Wrong command!"
       end
   end
 
-  def self.insult
-    insults = File.readlines('../loser.txt')
-    puts insults.sample
-  end
+
 end
 
 
@@ -53,6 +50,3 @@ end
 # p g.calc_hand_total(g.dealer_hand)
 # p g.calc_hand_total(g.player_hand)
 # p g.determine_win_lose
-
-p Controller.insult
-

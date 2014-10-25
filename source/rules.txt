@@ -1,0 +1,66 @@
+Rules of "Blackjack for Babies"
+=============================
+
+This game is a greatly simplified version
+of Cal Blackjack(GEGA-001194).  Many rules
+are omitted, such as insurance, double down,
+surrender, split, bonus bets, etc...  It
+simulates play using a static 6 deck "shoe",
+no continuous shuffle.
+
+Objective:
+To obtain either a Blackjack or a hand with total
+value closest to 21 without going over.  You are
+playing against the "house" hand, for simplicity
+the house will be referred to as the DEALER.
+
+=============================
+Rankings:
+=============================
+Any combination of cards >= 22 total = bust/lose
+Any combination of cards <= 21 total = the total
+Blackjack(Ace + 10 card) = 21.5
+
+Blackjack is the highest hand, beating a 21 hand.
+
+=============================
+Card values:
+=============================
+Card suits do not matter, and are omitted.
+
+2-9: The number on the card
+10,J,Q,K: 10
+Ace: 1 or 11
+
+=============================
+Playing a hand:
+=============================
+The first and third cards are dealt to the player.
+The second and fourth cards are dealt to the DEALER.
+The DEALER is showing only 1 card face-up initially.
+
+1. Dealer may check hole card.
+If the DEALER hand's upcard is a 10,J,Q,K, or Ace,
+the dealer checks the hole card underneath.  If that
+card makes a Blackjack, the Dealer reveals it, and play
+ends with the DEALER having Blackjack.  If no Blackjack,
+the card remains hidden and play continues as normal.
+
+2. Player acts.
+Players choose to HIT a card or STAY. Repeat the
+process until the player either decides to STAY
+or busts.  Blackjacks are an automatic stay.
+
+3. Dealer Hand acts.
+Reveal the hole card.  Plays house way.
+If total >= 17, STAY.  If total < 17 then HIT.
+
+4. Hands are compared, win/lose determined, and bets are
+resolved.  A player bust counts as a loss, even if the
+DEALER hand proceeds to bust after.
+
+=============================
+Payouts:
+=============================
+Blackjack: pays 3:2, example 100 bet pays 150
+non-Blackjack: pays 1:1 even money
